@@ -23,7 +23,7 @@ body {
   position: relative;
   height: 250px;
   left: 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
 }
 
 .robot-body {
@@ -65,4 +65,9 @@ body {
 .robot:hover .robot-head-right {
   position: absolute;
   right: 5%;
+}
+
+.robot:hover .robot-brain {
+  position: absolute;
+  top: 20%;
 }
